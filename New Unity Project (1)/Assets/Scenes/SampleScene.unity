@@ -727,6 +727,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5792159432853085950, guid: a890c482b80b51f4b879fee502ecb4b7, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5792159432853085950, guid: a890c482b80b51f4b879fee502ecb4b7, type: 3}
       propertyPath: m_Name
       value: Coin
       objectReference: {fileID: 0}
