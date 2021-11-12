@@ -347,7 +347,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7443806029781192928, guid: f4f3b4bfaaba91d41893a7e942f37b97, type: 3}
       propertyPath: sLevelToLoad
-      value: DynCamScene
+      value: StatAndDynCamScene
       objectReference: {fileID: 0}
     - target: {fileID: 7443806029781192931, guid: f4f3b4bfaaba91d41893a7e942f37b97, type: 3}
       propertyPath: m_RootOrder
@@ -559,6 +559,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneTransitionTriggerRight
       objectReference: {fileID: 0}
+    - target: {fileID: 7515092897322668462, guid: 53f82b4b7faf4ea4a867023e266f2e1a, type: 3}
+      propertyPath: sLevelToLoad
+      value: StatAndDynCamScene
+      objectReference: {fileID: 0}
     - target: {fileID: 7515092897322668463, guid: 53f82b4b7faf4ea4a867023e266f2e1a, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -615,6 +619,10 @@ PrefabInstance:
     - target: {fileID: 7815361907314164753, guid: 10d867776897f434eb9c922d3db27ef7, type: 3}
       propertyPath: m_Name
       value: SceneTransitionTriggerLeft
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815361907314164754, guid: 10d867776897f434eb9c922d3db27ef7, type: 3}
+      propertyPath: sLevelToLoad
+      value: StatAndDynCamScene
       objectReference: {fileID: 0}
     - target: {fileID: 7815361907314164755, guid: 10d867776897f434eb9c922d3db27ef7, type: 3}
       propertyPath: m_RootOrder
@@ -730,6 +738,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1604764187718333024, guid: 7561f975ba332d3489d8a22ce882e914, type: 3}
+      propertyPath: sLevelToLoad
+      value: StatAndDynCamScene
+      objectReference: {fileID: 0}
     - target: {fileID: 1604764187718333025, guid: 7561f975ba332d3489d8a22ce882e914, type: 3}
       propertyPath: m_RootOrder
       value: 4
