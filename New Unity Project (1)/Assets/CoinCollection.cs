@@ -32,5 +32,11 @@ public class CoinCollection : MonoBehaviour
             MyscoreText = ($"Score: {ScoreNum}");
             Destroy(Coin.gameObject);
         }
+        else if (Coin.tag == "Myredcoin")
+        {
+            ScoreNum+=2;
+            MyscoreText = ($"Score: {ScoreNum}");
+            Destroy(Coin.gameObject);
+        }
     }
 }
