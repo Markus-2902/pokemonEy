@@ -9,6 +9,9 @@ TagManager:
   - DynamicCamera
   - Myredcoin
   - DeadlyObj
+  - DialogTriggerObj
+  - DialogBackground
+  - Items
   layers:
   - Default
   - TransparentFX

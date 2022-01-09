@@ -1,0 +1,24 @@
+{
+	"Grass":{
+		"Top": "",
+		"Left-Top": "",
+		"Left": "",
+		"Left-Bot": "",
+		"Bot": "",
+		"Right-Bot": "",
+		"Right": "",
+		"Right-Top": "",
+	}
+	
+	"Street":{
+		"Top": "",
+		"Left-Top": "",
+		"Left": "",
+		"Left-Bot": "",
+		"Bot": "",
+		"Right-Bot": "",
+		"Right": "",
+		"Right-Top": "",
+	}
+
+}
