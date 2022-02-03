@@ -11,7 +11,16 @@ TagManager:
   - DeadlyObj
   - DialogTriggerObj
   - DialogBackground
-  - Items
+  - Item
+  - Ground
+  - Wall
+  - HookableObject
+  - ExpandableObj
+  - dif
+  - AS
+  - desc
+  - ft
+  - CamTrigger
   layers:
   - Default
   - TransparentFX

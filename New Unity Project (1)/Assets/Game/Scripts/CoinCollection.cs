@@ -7,11 +7,11 @@ using UnityEngine.UI;
 public class CoinCollection : MonoBehaviour
 {
     public string MyscoreText;
-    private int ScoreNum;
+    public static int ScoreNum;
     // Start is called before the first frame update
     void Start()
     {
-        ScoreNum = 0;
+        ScoreNum = SaveVarsAcreossScenesScript.Coins;
     }
 
     private void Update()
@@ -29,13 +29,17 @@ public class CoinCollection : MonoBehaviour
         {
             ScoreNum++;
             MyscoreText = ($"Score: {ScoreNum}");
+            Debug.Log(ScoreNum);
             Destroy(Coin.gameObject);
         }
         else if (Coin.tag == "Myredcoin")
         {
             ScoreNum+=2;
             MyscoreText = ($"Score: {ScoreNum}");
+            Debug.Log(ScoreNum);
             Destroy(Coin.gameObject);
         }
     }
+
+
 }

@@ -9,7 +9,7 @@ public class DialogTriggerScriptOld : MonoBehaviour
     public GameObject statcam;
     public bool dymdiaplacement;
     public string text = "testdialog";
-    string? textfield;
+    string textfield;
     public Rect textfieldrec;
     bool? movetoplayer = null;
     bool firstcreate = true;
